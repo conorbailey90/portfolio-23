@@ -115,7 +115,7 @@ header{
     overflow: hidden;
     margin: 2rem 0;
     border: 1px solid rgba(0, 0, 0, 0.563);
-  
+   
 }
 
 .blob{
@@ -134,7 +134,7 @@ canvas{
     top: -20%;
     left: 50%;
     transform: translateX(-50%);
-    width: var(--max-width);
+    width: calc(1800px * 2);
     height: 150%;
     z-index: 2;
 }

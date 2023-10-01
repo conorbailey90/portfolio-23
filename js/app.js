@@ -24,8 +24,8 @@ class Canvas{
     this.parentWidth = this.canvas.parentElement.getBoundingClientRect().width;
     this.parentHeight = this.canvas.parentElement.getBoundingClientRect().height;
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)
-    this.canvas.width = 1800 * window.devicePixelRatio;
-    this.canvas.height = this.canvas.offsetHeight * window.devicePixelRatio;
+    this.canvas.width = (1800 * 2) * 2
+    this.canvas.height = this.canvas.offsetHeight * 2
     this.drawGrid(this.canvas.width, this.canvas.height);
   }
 
