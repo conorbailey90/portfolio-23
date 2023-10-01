@@ -98,7 +98,7 @@ const blogContainer = document.querySelector('.blog__container');
 blogPosts.forEach(post => {
 
   let a = document.createElement('a');
-  a.setAttribute('href', `/blogpost.html?slug=${post.slug}`);
+  a.setAttribute('href', `/portfolio-23/blogpost.html?slug=${post.slug}`);
   a.classList.add('blog__card')
 
   let blogCard = document.createElement('div');
