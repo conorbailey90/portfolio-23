@@ -28,6 +28,7 @@
     font-weight: 400;
     color: var(--color);
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
 }
 
 
