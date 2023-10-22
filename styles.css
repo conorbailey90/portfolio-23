@@ -11,6 +11,20 @@
     --neon-color:#01bd94;
     --neon-color:#01b7bd;
 }
+:root{
+    --main-gb-color: #161616;
+    --width: 95%;
+    --max-width: 1800px;
+    --template-columns: repeat(12, 1fr);
+    --gap: 5px;
+    --color: #ffffff;
+    --border-color: #ffffffac;
+    --neon-color:rgb(255, 116, 65);
+    /* /* --neon-color:#029B7A; */
+    /* --neon-color:#01bd94; */
+    /* --neon-color:#000000; */
+}
+
 
 @font-face {
     font-family: 'abc diatype';
@@ -115,7 +129,7 @@ header{
     gap: 5px;
     overflow: hidden;
     margin: 2rem 0;
-    border: 1px solid rgba(0, 0, 0, 0.563);
+    border: 1px solid rgba(0, 0, 0, 0.184);
    
 }
 

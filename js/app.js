@@ -38,7 +38,7 @@ class Canvas{
   }
   
   drawHexagon(x, y) {
-    this.ctx.fillStyle = `#131313`
+    this.ctx.fillStyle = `#161616`
     this.ctx.beginPath();
     for (let i = 0; i < 6; i++) {
       this.ctx.lineTo(x + this.r * Math.cos(this.a * i), y + this.r * Math.sin(this.a * i));
